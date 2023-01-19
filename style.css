@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+}
+
+.contentContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 1000px;
+  gap: 80px;
+}
+
+.text {
+  text-align: center;
+  vertical-align: middle;
+  margin: 0 30px;
+  font-size: 18px;
+  color: white;
+}
+
+.ideas,
+.design,
+.code {
+  border: 6px rgb(63, 52, 52) solid;
+  width: 400px;
+  height: 500px;
+  border-radius: 30px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  background-color: rgb(49, 40, 40);
+}
+
+.ideaIcon,
+.designIcon,
+.codeIcon {
+  width: 80px;
+  height: 80px;
+  background-image: url(./lamp.png);
+  mask-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin-top: 30px;
+}
+
+.ideaIcon {
+  background-image: url(./lamp.png);
+}
+
+.designIcon {
+  background-image: url(./pen.jfif);
+}
+
+.codeIcon {
+  background-image: url(./comp.jpg);
+}
+
+.button {
+  width: 100px;
+  height: 40px;
+  border-radius: 20px;
+  font-weight: 600;
+}
+
+.ideaButton {
+  background-color: rgb(196, 56, 80);
+}
+
+.designButton {
+  background-color: rgb(86, 86, 156);
+}
+
+.codeButton {
+  background-color: rgb(79, 161, 79);
+}
+
+.iconHolder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 400px;
+  border-bottom: 6px rgb(63, 52, 52) solid;
+  padding-bottom: 20px;
+}
